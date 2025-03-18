@@ -1,0 +1,50 @@
+Project Report: Budget Management Web App
+
+1. Introduction
+The Budget Management Web App is designed to help users efficiently manage their salary by allocating expenses and visualizing budget distributions. It provides functionalities such as user authentication, salary entry, budget allocation, and a graphical representation of expenses.
+
+2. Features**
+- User Authentication**: Login and registration system to ensure secure access.
+- Salary Input**: Users can enter their salary amount.
+- Automated Expense Allocation**: The system automatically divides the salary into predefined expense categories.
+- **Custom Expense Addition**: Users can manually add expenses.
+- **Remaining Balance Calculation**: Displays the leftover amount after expenses are deducted.
+- **Graphical Budget Representation**: A pie chart visualizes the budget breakdown.
+- **Logout Functionality**: Allows users to securely exit the system.
+
+
+**3. Technologies Used**
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend & Storage**: LocalStorage (for user authentication and data persistence)
+- **Chart Library**: Chart.js (for graphical representation)
+
+
+**4. Files Overview**
+- **index.html**: Login page for authentication.
+- **register.html**: User registration page.
+- **salary.html**: Page to input salary.
+- **budget.html**: Budget allocation and expense management page.
+- **chart.html**: Displays budget distribution using a pie chart.
+- **styles.css**: Contains styling for the web application.
+- **script.js**: Implements functionality for user authentication, budget calculations, and chart generation.
+
+
+**5. How It Works**
+1. **User Authentication**:
+   - New users must register before logging in.
+   - Registered users can log in using their credentials.
+2. **Salary Entry**:
+   - Users input their salary, which is stored in LocalStorage.
+3. **Budget Allocation**:
+   - Default expense categories allocate a percentage of the salary automatically.
+   - Users can add custom expenses.
+   - Remaining balance updates dynamically.
+4. **Graphical Representation**:
+   - A pie chart displays the breakdown of expenses and savings.
+5. **Logout**:
+   - Users can log out to clear session data and return to the login screen.
+
+
+**6. Conclusion**
+This Budget Management Web App provides an easy-to-use solution for managing personal finances. It ensures secure access, automated budget allocation, and an intuitive graphical representation for better financial tracking.
+
